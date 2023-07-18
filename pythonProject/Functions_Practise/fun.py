@@ -1,2 +1,0 @@
-a='arun'
-print(a)
