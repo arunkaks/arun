@@ -76,12 +76,81 @@
 # jagu.remove(6)
 # print(jagu)
 
+#
+# #reverse
+# li=[1,2,3,4,5,6,7,8,9]
+# print(li[::-1])
+#
+# li=[1,2,3,4,5,6,7,8,9]
+# li.reverse()
+# print(li)
 
-#reverse
-li=[1,2,3,4,5,6,7,8,9]
-print(li[::-1])
 
-li=[1,2,3,4,5,6,7,8,9]
-li.reverse()
-print(li)
+# a=15
+#
+# if (a<5):
+#     print("A is less than five")
+# if(a<10):
+#     print("A is less than ten")
+# if (a<15):
+#     print("A is less than fifteen")
+# if(a<20):
+#     print("A is less than twenty")
+# if(a<25):
+#     print("A is less than twentyfive")
+
+#
+# li=[1,2,3,456,56,456,5,6,7]
+# for i in range(len(li)):
+#     if li[i]==456:
+#         li[i]=2
+# print(li)
+
+
+# l=[1,2,3,456,32,456]
+# for i in range(len(l)):
+#     if l[i]==456:
+#         print(i)
+#
+#
+#
+# l=[1,2,3,456,32,456]
+# for i in range(len(l)):
+#     if l[i]==456:
+#         l[i]=5
+# print(l)
+#
+#
+
+
+#list compresion
+
+# print([i**2 for i in [1,2,3,4,5,6]])
+
+
+
+
+
+#Membership operator
+#
+# a=[1,-2,3,4,5,56]
+# print(-2 not in a)
+#
+#
+#
+# aa=[1,-2,3,4,5,56]
+# print(-2 in aa)
+
+
+#identity Operator
+# a=[1,2,3,4,5,6,7,8]
+# aa=[1,2,3,4,5,6,7,8]    [here values are same but id will come different because it is list]
+# print(id(a)==id(aa))
+
+
+# a=1
+# aa=1                  [here valuse are als same and id also same beacause its not in list]
+# print(id(a)==id(aa))
+
+
 
