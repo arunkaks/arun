@@ -1,5 +1,5 @@
 #what is list?
-#A list in python is need to store the sequence of various types of data.
+#A list in pyhton is need to store the sequence of various types of data.
 #python lists are mutable type its mean we can modigy its element after ot created.
 #A list can be defined as a collection of value or items of different types.
 
